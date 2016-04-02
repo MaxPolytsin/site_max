@@ -1,8 +1,8 @@
 body {
             background: #ffffff;
             color: #000000;
-            font-family: Tahoma;
-            font-size: 14px;
+            font-family: Times;
+            font-size: 15px;
 }
  
 #container {
@@ -27,21 +27,21 @@ body {
 }
  
 #menu1 {	
-            background: #3366FF;
+            background: #FFFF99;
             float: left;
             width: 20%;
             height: 60%;  
 }
 
 #menu2 {
-            background: #33CC33;
+            background: #3366FF;
             float: right;
             width: 20%;
             height: 60%;  
 }
  
 #content {
-            background:#FFFF99;
+            background:#33CC33;
             float: left;
             width: 60%;
             height: 60%; 
