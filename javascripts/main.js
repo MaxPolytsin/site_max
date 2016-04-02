@@ -21,6 +21,6 @@ function makeBGBlue() {
 
 $(document).ready(function() {
     $("#fadeinout").click(function() {
-        $(this).effect("shake");
+        $(this).fadeOut(1000).fadeIn(1000);
     });
 });
