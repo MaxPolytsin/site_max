@@ -9,7 +9,7 @@ function showAgent() {
 }
 
 //DOM samples
-function makeBGBlue() {
+function makeBGRed() {
     if (document.body.style.background.valueOf() === new String("red").valueOf()) {
         document.body.style.background = "";
     } else {
