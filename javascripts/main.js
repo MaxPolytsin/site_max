@@ -1,15 +1,17 @@
 //JS samples
-function showHref() {
+function showserv() {
     alert("имя сервера: "+ location.hostname+"  "+"протокол: "+location.protocol);
 }
 
 //BOM samples
 function showAgent() {
-    alert(navigator.userAgent);
+    //alert(navigator.userAgent);
+    document.write('Разрешение экрана: <b>'+screen.width+'X'+
+screen.height+'</b>')
 }
 
 //DOM samples
-function makeBGRed() {
+function makeBGGreen() {
     if (document.body.style.background.valueOf() === new String("green").valueOf()) {
         document.body.style.background = "";
     } else {
@@ -20,7 +22,7 @@ function makeBGRed() {
 //jQuery
 
 $(document).ready(function() {
-    $("#fadeinout").click(function() {
+    $("#hide").click(function() {
         $(this).hide(5);
     });
 });
