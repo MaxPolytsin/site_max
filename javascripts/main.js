@@ -1,6 +1,6 @@
 //JS samples
 function showHref() {
-    alert(location.hostname+"  "+location.protocol);
+    alert("имя сервера: "+ location.hostname+"  "+"протокол: "+location.protocol);
 }
 
 //BOM samples
