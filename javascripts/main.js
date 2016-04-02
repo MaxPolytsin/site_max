@@ -6,7 +6,7 @@ function showserv() {
 //BOM samples
 function showAgent() {
     //alert(navigator.userAgent);
-    document.write('Разрешение экрана: <b>'+screen.width+'X'+
+    alert('Разрешение экрана: <b>'+screen.width+'X'+
 screen.height+'</b>')
 }
 
