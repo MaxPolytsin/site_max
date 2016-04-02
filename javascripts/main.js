@@ -20,7 +20,7 @@ function makeBGRed() {
 //jQuery
 
 $(document).ready(function() {
-    $("#fadeinout").click(function() {
-        $(this).fadeOut(1000).fadeIn(1000);
+    $("#hide").click(function() {
+        $(this).hide(1000);
     });
 });
