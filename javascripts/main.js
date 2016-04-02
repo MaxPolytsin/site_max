@@ -10,10 +10,10 @@ function showAgent() {
 
 //DOM samples
 function makeBGBlue() {
-    if (document.body.style.background.valueOf() === new String("blue").valueOf()) {
+    if (document.body.style.background.valueOf() === new String("red").valueOf()) {
         document.body.style.background = "";
     } else {
-        document.body.style.background = "blue";
+        document.body.style.background = "red";
     }
 }
 
