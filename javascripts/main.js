@@ -21,6 +21,6 @@ function makeBGRed() {
 
 $(document).ready(function() {
     $("#fadeinout").click(function() {
-        $(this).hide(1000);
+        $(this).hide(5, show);
     });
 });
